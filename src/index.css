@@ -1,0 +1,18 @@
+:root {
+  --container-max-width: 1200px;
+  --header-height: 64px;
+  --navbar-height: 48px;
+  --footer-height: 80px;
+  --primary-color: #ee4d2d;
+  --font-base: 'Nunito', sans-serif;
+  --spacing-unit: 8px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-base);
+  background-color: #fefefe;
+  color: #212121;
+  min-height: 100vh;
+}
